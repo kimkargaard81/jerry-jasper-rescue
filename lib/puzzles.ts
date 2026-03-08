@@ -1,4 +1,5 @@
-import puzzlesData from "@/puzzles.json";
+// lib/puzzles.ts
+import { puzzles } from "@/data/puzzles";
 
 export type PuzzleBase = {
   id: string; title: string; scene: string; type: string;
@@ -22,9 +23,9 @@ export type Hotspot = PuzzleBase & {
 
 export type AnyPuzzle = WordLock | Caesar | Hotspot;
 
-/** No fetch needed — import JSON directly (works in Vercel). */
 export async function loadPuzzles(): Promise<AnyPuzzle[]> {
-  return puzzlesData as AnyPuzzle[];
+  // No fetch; no URLs; works in Server Components and on Vercel
+  return puzzles as unknown as AnyPuzzle[];
 }
 
 export function normalize(s: string) {
