@@ -5,7 +5,7 @@
     "scene": "Jerry and Jasper notice that Miss Marit barely blinks and keeps tapping a rhythm on the desk…",
     "type": "wordlock",
     "prompt": "Hidden in the sentence is the secret word that opens her desk.",
-    "body": "Mysteriously, Every Student Said Marit Acts Rather Interesting Today.",
+    "body": "Mysteriously, Every Student Said Miss Marit Acts Rather Interesting Today.",
     "answer": "MESSARIT",
     "normalize": true,
     "hint": "Try reading the first letters of each word 😉",
