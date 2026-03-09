@@ -1,3 +1,4 @@
+// lib/progress.ts
 export type Progress = { solved: Record<string, boolean>; inventory: string[] };
 const KEY = "jj-progress-v1";
 
