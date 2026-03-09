@@ -23,8 +23,8 @@ export type Hotspot = PuzzleBase & {
 
 export type AnyPuzzle = WordLock | Caesar | Hotspot;
 
+/** No fetch; import data directly—Vercel-safe. */
 export async function loadPuzzles(): Promise<AnyPuzzle[]> {
-  // No fetch; no URLs; works in Server Components and on Vercel
   return puzzles as unknown as AnyPuzzle[];
 }
 
