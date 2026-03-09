@@ -8,6 +8,7 @@ export default function WordLock({ puzzle }: { puzzle: any }) {
   const [guess, setGuess] = useState("");
   const [done, setDone] = useState(false);
   const norm = (s: string) => (puzzle.normalize ? normalize(s) : s);
+
   const check = () => {
     const ok = norm(guess) === norm(puzzle.answer);
     if (ok) { markSolved(puzzle.id, puzzle.reward); setDone(true); }
