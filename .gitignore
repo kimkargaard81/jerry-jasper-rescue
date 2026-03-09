@@ -4,7 +4,6 @@ node_modules/
 # Next.js
 .next/
 out/
-.next-static/
 
 # Logs
 npm-debug.log*
@@ -15,6 +14,6 @@ pnpm-debug.log*
 # OS
 .DS_Store
 
-# Env
+# Env & platform
 .env*
 .vercel
