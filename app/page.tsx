@@ -18,7 +18,7 @@ export default async function Home() {
       </div>
       <Link
         href="/play"
-        className="mt-6 inline-block bg-indigo-600 text-white px-5 py-2 rounded-lg"
+        className="mt-6 inline-block bg-indigo-600 text-white px-4 py-2 rounded shadow hover:bg-indigo-700"
       >
         Start Adventure
       </Link>
