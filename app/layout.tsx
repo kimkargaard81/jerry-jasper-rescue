@@ -16,14 +16,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             <Link href="/" className="font-bold text-indigo-700">Jerry &amp; Jasper</Link>
             <div className="flex items-center gap-4">
               <Link href="/play" className="text-sm text-indigo-700 underline">Play</Link>
-              <a
-                href="https://vercel.com"
-                target="_blank"
-                rel="noreferrer"
-                className="text-xs text-slate-500"
-              >
-                Powered by Next.js
-              </a>
+              <a href="https://vercel.com" target="_blank" rel="noreferrer"
+                 className="text-xs text-slate-600">Powered by Next.js</a>
             </div>
           </div>
         </nav>
@@ -35,4 +29,3 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     </html>
   );
 }
-
