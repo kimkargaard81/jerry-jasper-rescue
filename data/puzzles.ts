@@ -7,7 +7,7 @@ export const puzzles = [
     type: "wordlock",
     prompt: "Hidden in the sentence is the secret word that opens her desk.",
     body: "Mysteriously, Every Student Said Marit Acts Rather Interesting Today.",
-    answer: "MESSARIT",
+    answer: "MESSMARIT",
     normalize: true,
     hint: "Try reading the first letters of each word 😉",
     reward: "key-1"
