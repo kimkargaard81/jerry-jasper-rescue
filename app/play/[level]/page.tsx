@@ -21,10 +21,7 @@ export default async function LevelPage({ params }: { params: { level: string } 
       <Comp puzzle={puzzle} />
       <div className="max-w-2xl mx-auto flex justify-between mt-6">
         <Link href="/play" className="text-sm text-indigo-700 underline">← Back to Missions</Link>
-        <Link
-          href={`/play/${getNextId(puzzles, puzzle.id)}`}
-          className="text-sm text-indigo-700 underline"
-        >
+        <Link href={`/play/${getNextId(puzzles, puzzle.id)}`} className="text-sm text-indigo-700 underline">
           Next →
         </Link>
       </div>
